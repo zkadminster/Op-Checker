@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: century gothic;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    overflow-x: hidden;
+}
+.nav{
+    display: inline-block;
+    width: 100%;
+    color: white;
+    padding: 2%;
+    background-color: black;
+}
+.texto{
+    display: inline-block;
+    width: 80%;
+}
+.boton{
+    display: inline-block;
+    width: 10%;
+    button{
+    background-color: rgb(20, 20,20);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10%;
+    width: 100%;
+    }
+    button:hover{
+        background-color: orange;
+    }
+}
+.rev{
+    display: inline-block;
+    width: 70%;
+    border-style: solid;
+    border-color: rgb(20, 20, 20);
+}
+.checker{
+    display: inline-block;
+    width: 26%;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5% 2%;
+    margin: 2% 0 0 3%;
+        background-color: rgb(40, 40, 40);
+    color: white;
+    
+ h2{
+        margin: 0 0 3% 0;
+    }
+    p{
+        margin: 5% 0 2% 0;
+    }
+    textarea{
+        width: 90%;
+        height: 80px;
+    }
+}
+.opciones{
+    display: inline-block;
+    position: absolute;
+    margin: 1.5% 3% 3% 3%;
+    width: 23%;
+    border-style: none;
+    padding: 1% 0 10% 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    h2{
+        font-size: 35px;
+        margin: 0 0 5% 0;
+    }
+    h3{
+        margin: 1% 0 5% 0;
+    }
+    img{
+        width: 50%;
+    }
+    textarea{
+        width: 80%;
+        height: 300px;
+    }
+    button{
+        background-color: rgb(20, 20, 20);
+        border-style: none;
+        color: white;
+        padding: 5%;
+        margin: 5% 0 0 0;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    button:hover{
+        background-color: orange;
+    }
+}
+@media(max-width:500px){
+
+    .boton{
+        display: none;
+    }
+    .texto{
+        h2{
+            font-size: 15px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+.rev{
+    display: inline-block;
+   width: 100%;
+}
+.checker{
+    display: inline-block;
+    width: 80%;
+    margin: 2% 0 0 5%;
+}
+
+.opciones{
+    display: inline;
+    position: absolute;
+    width: 80%;
+    margin: 5% 0 0 7%;
+img{
+    width: 50%;
+}
+margin: 5% 0 10% 8%;
+}
+
+}

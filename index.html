@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" href="/img/alienware.png">
+    <script src="/js/calculos.js" defer></script>
+    <title>KGN - Op Checker</title>
+</head>
+<div class="nav">
+    <div class="texto">
+        <h1> KGN - OP Checker</h1>
+        <p>Check de revisión de OP personal</p>
+    </div>
+    <div class="boton">
+        <a href="/resources/Herramienta de Revisión.xlsm"><button>Herramienta de Revisión Local <br>Excel vba</button></a>
+    </div>
+</div>
+
+<body>
+    <div class="rev">
+        <div class="checker">
+            <h2>Portada de OP:</h2>
+            <input type="radio" name="Port.op"> Aprobado
+            <br>
+            <input type="radio" name="Port.op"> Observado
+
+            <p>Observaciones:</p>
+            <textarea id="portop"></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>St3:</h2>
+            <input type="radio" name="st3"> Aprobado
+            <br>
+            <input type="radio" name="st3"> Observado
+
+            <p>Observaciones:</p>
+            <textarea id="st3""></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Factura - BH:</h2>
+            <input type="radio" name="fact"> Aprobado
+            <br>
+            <input type="radio" name="fact"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Pago Iva:</h2>
+            <input type="radio" name="iva"> Aprobado
+            <br>
+            <input type="radio" name="iva"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Val y Contenido:</h2>
+            <input type="radio" name="validez"> Aprobado
+            <br>
+            <input type="radio" name="validez"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Respaldos:</h2>
+            <input type="radio" name="Respaldo"> Aprobado
+            <br>
+            <input type="radio" name="respaldo"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Carp. Tributaria:</h2>
+            <input type="radio" name="ct"> Aprobado
+            <br>
+            <input type="radio" name="ct"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+        <div class="checker">
+            <h2>Cotización:</h2>
+            <input type="radio" name="cot"> Aprobado
+            <br>
+            <input type="radio" name="cot"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+        <div class="checker">
+            <h2>Declaración Jurada:</h2>
+            <input type="radio" name="dejur"> Aprobado
+            <br>
+            <input type="radio" name="dejur"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Recepción de Doc:</h2>
+            <input type="radio" name="recep"> Aprobado
+            <br>
+            <input type="radio" name="recep"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+
+        <div class="checker">
+            <h2>Anexo 5:</h2>
+            <input type="radio" name="anexo"> Aprobado
+            <br>
+            <input type="radio" name="anexo"> Observado
+
+            <p>Observaciones:</p>
+            <textarea></textarea>
+
+        </div>
+    </div>
+
+    <div class="opciones">
+        <img src="/img/Imagen1.png" alt="">
+        <h2>Check para revisión de Op</h2>
+        <h3>Estado:</h3>
+
+        <select id="estados">
+            <option value=""></option>
+            <option value=Aprobada>Aprobada</option>
+            <option value=Observada>Observada</option>
+        </select>
+        <h3>Modalidad de compra:</h3>
+        <select id="mod">
+                <option value=""></option>
+            <option value="Compra Asistida">Compra Asistida</option>
+            <option value="Reembolso">Reembolso</option>
+        </select>
+        <h3>Comentario:</h3>
+        
+        <textarea id="resultado"></textarea>
+       <br>
+        <button id="btn">Generar comentario</button>
+
+    </div>
+</body>
+
+</html>
