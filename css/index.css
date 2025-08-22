@@ -1,17 +1,24 @@
 *{
     margin: 0;
     font-family: century gothic;
+    
+}
+textarea{
+    border-radius: 10px;
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(58, 58, 58);
+    color: rgba(255, 255, 255, 0.877);
 }
 body{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(10, 10, 10);
     overflow-x: hidden;
 }
 .nav{
     display: inline-block;
     width: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 2%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .texto{
     display: inline-block;
@@ -30,14 +37,14 @@ body{
     width: 100%;
     }
     button:hover{
-        background-color: orange;
+         background-color: rgb(46, 117, 248);
     }
 }
 .rev{
     display: inline-block;
     width: 70%;
     border-style: solid;
-    border-color: rgb(20, 20, 20);
+    border-color: rgb(10, 10, 10);
 }
 .checker{
     display: inline-block;
@@ -46,7 +53,7 @@ body{
     border-radius: 10px;
     padding: 5% 2%;
     margin: 2% 0 0 3%;
-        background-color: rgb(40, 40, 40);
+        background-color: rgb(20, 20, 20);
     color: white;
     
  h2{
@@ -66,17 +73,17 @@ body{
     margin: 1.5% 3% 3% 3%;
     width: 23%;
     border-style: none;
-    padding: 1% 0 10% 0;
+    padding: 1% 0 5% 0;
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(20, 20, 20);
     color: white;
     h2{
         font-size: 35px;
         margin: 0 0 5% 0;
     }
     h3{
-        margin: 1% 0 5% 0;
+        margin: 1% 0 0 0;
     }
     img{
         width: 50%;
@@ -84,18 +91,24 @@ body{
     textarea{
         width: 80%;
         height: 300px;
+        margin: 5% 0 0 0;
+    }
+    select{
+        width: 70%;
+        margin: 1% 0 5% 0;
     }
     button{
-        background-color: rgb(20, 20, 20);
+        background-color: rgb(40, 40, 40);
         border-style: none;
         color: white;
         padding: 5%;
         margin: 5% 0 0 0;
         border-radius: 5px;
         font-weight: bold;
+        width: 80%;
     }
     button:hover{
-        background-color: orange;
+      background-color: rgb(46, 117, 248);
     }
 }
 @media(max-width:500px){

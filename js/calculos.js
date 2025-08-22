@@ -15,6 +15,7 @@
     let dec = document.getElementById("dj")
     let rd = document.getElementById("rd")
     let a5 = document.getElementById("a5")
+    let refrescar = document.getElementById("refrescar")
 
     let comentario_final = document.getElementById("resultado")
 
@@ -115,6 +116,7 @@ function comentario(){
 
 comentario_final.value = (tipo + est_op + est_portop + est_st3 + est_dt + est_iva + est_valid + est_respald + est_ct + est_cot + est_dec + est_rd + est_a5) 
 }
+
 
 inicio.addEventListener('click',comentario)
 
